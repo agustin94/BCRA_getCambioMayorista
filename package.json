@@ -1,0 +1,23 @@
+{
+  "name": "bcra_getcambiomayorista",
+  "version": "1.0.0",
+  "description": "consigue valores de cambio mayoristas ",
+  "main": "valor_cambio_mayorista.js",
+  "scripts": {
+    "test": "node valor_cambio_mayorista.js dd-mm-yyyy dd-mm-yyyy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustin94/BCRA_getCambioMayorista.git"
+  },
+  "author": "Agustin Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustin94/BCRA_getCambioMayorista/issues"
+  },
+  "homepage": "https://github.com/agustin94/BCRA_getCambioMayorista#readme",
+  "dependencies": {
+    "async-retry": "^1.3.1",
+    "puppeteer": "^2.1.1"
+  }
+}
